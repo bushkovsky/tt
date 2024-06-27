@@ -4,7 +4,7 @@ import com.garmin.fit.*;
 
 import java.io.FileInputStream;
 
-public class FitFileReader {
+public class FitFileReader implements ReadPort {
 
     public DtoTrackInfo read(String path) {
 

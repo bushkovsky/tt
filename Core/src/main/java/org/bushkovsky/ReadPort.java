@@ -1,5 +1,5 @@
 package org.bushkovsky;
 
 public interface ReadPort {
-    public DtoTrackInfo read();
+    public DtoTrackInfo read(String path);
 }
